@@ -1,0 +1,67 @@
+body{
+    background-image: linear-gradient(to bottom, #080d15, #00445f, #008487, #00c472, #b0fa0c);
+}
+
+ul { 
+    
+    color: white;
+    width: 210px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+span:hover{
+    color: red;
+        cursor: pointer;
+
+}
+h1{ 
+    font-size: 30px;
+}
+
+.imagen{
+    width: 40px;
+    height: 40px;
+    background-image: url(../public/simboloNike-removebg-preview.png);
+    background-size: 40px, 40px;
+    background-repeat: no-repeat;
+    margin-left: 140px;
+    margin-top: -25px;
+}
+
+.CreateButton{
+   
+    margin-left: 60%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.CreateButton:hover{
+    transform: rotate(360deg);
+}
+
+#root{
+    min-height: 100vh;
+    position: relative;
+}
+
+#completado{
+    margin-top: -100px;
+}
+
+.lista {
+    height: 100px;
+   color: black;
+}
+.props-completed{
+    text-decoration: line-through;    
+}
+
+.completed{
+    text-decoration: line-through;  
+}
