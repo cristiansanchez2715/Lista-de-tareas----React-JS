@@ -102,7 +102,7 @@ const deleteTodo = (text) => {
 
      <CreateButton onAddClick={addTodo}/>
      
-   <TodoClick />
+   
     </React.Fragment>
   );
 

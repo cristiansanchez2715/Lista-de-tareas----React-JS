@@ -65,3 +65,52 @@ h1{
 .completed{
     text-decoration: line-through;  
 }
+@media(min-width: 320px){
+
+    #ul{
+   margin-left: 100px;
+    }
+  #input{
+    margin-left: 100px;
+  }
+
+  #cabecera{
+    margin-left: 70px;
+  }
+
+}
+
+@media(min-width: 640px){
+
+    #ul{
+   margin-left: 150px;
+    }
+  #input{
+    margin-left: 150px;
+  }
+
+  #cabecera{
+    margin-left: 115px;
+  }
+.CreateButton{
+    margin-left: 200px;
+}
+}
+
+@media(min-width: 1024px){
+
+    #ul{
+   margin-left: 500px;
+    }
+  #input{
+    margin-left: 500px;
+  }
+
+  #cabecera{
+    margin-left: 465px;
+  }
+.CreateButton{
+    margin-left: 575px;
+}
+}
+
